@@ -1,0 +1,32 @@
+.header-bg {
+  background-image: url('/images/header-background.jpg'); /* Cambia la ruta a tu imagen */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.header-title {
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para mejor legibilidad */
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  margin: 0;
+}
+
+.header-nav {
+  margin-top: 1rem;
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-weight: bold;
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}
