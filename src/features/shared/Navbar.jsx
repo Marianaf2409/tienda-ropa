@@ -9,6 +9,8 @@ function Navbar({ cart }) {
     <nav className="nav-bar">
       <Link to="/">Inicio</Link>
       <Link to="/productos">Productos</Link>
+      <Link to="/contacto">Contacto</Link>
+
       <Link to="/carrito">
         Carrito{totalItems > 0 ? ` (${totalItems})` : ""}
       </Link>

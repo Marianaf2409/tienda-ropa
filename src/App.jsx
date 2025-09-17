@@ -3,6 +3,7 @@ import Header from "./features/shared/Header";
 import ProductsPage from "./features/products/ProductsPage";
 import CartPage from "./features/cart/CartPage";
 import Navbar from "./features/shared/Navbar";
+import Contacto from "./features/shared/contacto"; // ✅ import correcto
 import { useState } from "react";
 
 function App() {
@@ -29,8 +30,15 @@ function App() {
       <Navbar cart={cart} />
       <Routes>
         <Route path="/" element={<Header />} />
-        <Route path="/productos" element={<ProductsPage addToCart={addToCart} />} />
-        <Route path="/carrito" element={<CartPage cart={cart} removeFromCart={removeFromCart} />} />
+        <Route
+          path="/productos"
+          element={<ProductsPage addToCart={addToCart} />}
+        />
+        <Route
+          path="/carrito"
+          element={<CartPage cart={cart} removeFromCart={removeFromCart} />}
+        />
+        <Route path="/contacto" element={<Contacto />} /> {/* ✅ Ruta agregada */}
       </Routes>
     </Router>
   );

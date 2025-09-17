@@ -224,3 +224,69 @@
     font-size: 0.85rem;
   }
 }
+.contacto-container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff0f5;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contacto-title {
+  text-align: center;
+  color: #d63384;
+  margin-bottom: 20px;
+}
+
+.contacto-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacto-label {
+  margin-bottom: 15px;
+  font-weight: bold;
+  color: #555;
+}
+
+.contacto-input,
+.contacto-textarea {
+  width: 100%;             /* que llenen todo el ancho del contenedor */
+  box-sizing: border-box;  /* para que padding y borde no aumenten tamaño */
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 5px;
+  font-size: 16px;
+  resize: none;            /* evita que el textarea sea redimensionable */
+}
+
+/* Para que textarea tenga la misma altura que un input */
+.contacto-textarea {
+  height: 40px;  /* igual que un input típico */
+}
+
+
+.contacto-textarea {
+  min-height: 100px;
+}
+
+.contacto-button {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contacto-success {
+  text-align: center;
+  color: #28a745;
+  font-weight: bold;
+  font-size: 18px;
+}

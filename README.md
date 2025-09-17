@@ -8,7 +8,7 @@ Este proyecto es una tienda virtual que consume productos desde una API externa,
 
 1. Clonar el repositorio:
 ```bash
-git https://github.com/Marianaf2409/tienda-ropa
+git https://github.com/Marianaf2409/tienda-ropa.git
 Entrar al proyecto:
 
 bash
